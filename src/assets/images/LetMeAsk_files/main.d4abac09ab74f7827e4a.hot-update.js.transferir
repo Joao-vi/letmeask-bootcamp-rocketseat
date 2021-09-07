@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/auth.scss":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/styles/auth.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "#auth-page {\n  display: flex;\n  align-items: stretch;\n  height: 100vh; }\n  #auth-page aside {\n    flex: 7 1;\n    color: #fff;\n    background-color: #835afd;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n  #auth-page img {\n    max-width: 320px; }\n  #auth-page strong {\n    text-align: start;\n    font: 700 36px \"Poppins\", sans-serif;\n    line-height: 32px;\n    margin-top: 16px; }\n  #auth-page p {\n    text-align: start;\n    font-size: 24px;\n    line-height: 32px;\n    margin-top: 16px;\n    color: #f8f8f8; }\n  #auth-page main {\n    flex: 8 1;\n    padding: 0 32px;\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n  #auth-page .main-content {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    max-width: 320px;\n    align-items: stretch;\n    text-align: center; }\n    #auth-page .main-content > img {\n      align-items: center; }\n", "",{"version":3,"sources":["webpack://src/styles/auth.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,oBAAoB;EACpB,aAAa,EAAA;EAHf;IAMI,SAAO;IAEP,WAAW;IACX,yBAAyB;IAEzB,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB,EAAA;EAdvB;IAkBI,gBAAgB,EAAA;EAlBpB;IAqBI,iBAAiB;IACjB,oCAAoC;IACpC,iBAAiB;IACjB,gBAAgB,EAAA;EAxBpB;IA2BI,iBAAiB;IACjB,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,cAAc,EAAA;EA/BlB;IAmCI,SAAO;IACP,eAAe;IACf,aAAa;IACb,uBAAuB;IACvB,mBAAmB,EAAA;EAvCvB;IA2CI,aAAa;IACb,sBAAsB;IACtB,WAAW;IACX,gBAAgB;IAChB,oBAAoB;IACpB,kBAAkB,EAAA;IAhDtB;MAmDM,mBAAmB,EAAA","sourcesContent":["#auth-page {\r\n  display: flex;\r\n  align-items: stretch;\r\n  height: 100vh;\r\n\r\n  aside {\r\n    flex: 7;\r\n\r\n    color: #fff;\r\n    background-color: #835afd;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n  }\r\n\r\n  img {\r\n    max-width: 320px;\r\n  }\r\n  strong {\r\n    text-align: start;\r\n    font: 700 36px \"Poppins\", sans-serif;\r\n    line-height: 32px;\r\n    margin-top: 16px;\r\n  }\r\n  p {\r\n    text-align: start;\r\n    font-size: 24px;\r\n    line-height: 32px;\r\n    margin-top: 16px;\r\n    color: #f8f8f8;\r\n  }\r\n\r\n  main {\r\n    flex: 8;\r\n    padding: 0 32px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n  }\r\n\r\n  .main-content {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    max-width: 320px;\r\n    align-items: stretch;\r\n    text-align: center;\r\n\r\n    > img {\r\n      align-items: center;\r\n    }\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.d4abac09ab74f7827e4a.hot-update.js.map

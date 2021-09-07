@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./LetMeAsk_files/css2" rel="stylesheet">
+    <title>LetMeAsk</title>
+  <style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f8f8f8;
+  color: #29292e; }
+
+body,
+input,
+button,
+textarea {
+  font: 400 16px "Roboto", sans-serif; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvc3R5bGVzL2dsb2JhbC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNULFVBQVU7RUFDVixzQkFBc0IsRUFBQTs7QUFHeEI7RUFDRSx5QkFBeUI7RUFDekIsY0FBYyxFQUFBOztBQUdoQjs7OztFQUlFLG1DQUFtQyxFQUFBIiwic291cmNlc0NvbnRlbnQiOlsiKiB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG5cclxuYm9keSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Y4ZjhmODtcclxuICBjb2xvcjogIzI5MjkyZTtcclxufVxyXG5cclxuYm9keSxcclxuaW5wdXQsXHJcbmJ1dHRvbixcclxudGV4dGFyZWEge1xyXG4gIGZvbnQ6IDQwMCAxNnB4IFwiUm9ib3RvXCIsIHNhbnMtc2VyaWY7XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>#auth-page {
+  display: flex;
+  align-items: stretch;
+  height: 100vh; }
+  #auth-page aside {
+    flex: 7 1;
+    color: #fff;
+    background-color: #835afd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #auth-page img {
+    max-width: 320px; }
+  #auth-page strong {
+    text-align: start;
+    font: 700 36px "Poppins", sans-serif;
+    line-height: 32px;
+    margin-top: 16px; }
+  #auth-page p {
+    text-align: start;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+    color: #f8f8f8; }
+  #auth-page main {
+    flex: 8 1;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #auth-page .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: stretch;
+    text-align: center; }
+    #auth-page .main-content > img {
+      align-items: center; }
+    #auth-page .main-content form input {
+      height: 50px;
+      border: 1px solid #a8a8b3;
+      padding: 0 13px;
+      background-color: #ffffff;
+      border-radius: 8px; }
+    #auth-page .main-content form button {
+      margin-top: 16px; }
+    #auth-page .main-content form button,
+    #auth-page .main-content form input {
+      width: 100%; }
+    #auth-page .main-content .separator {
+      margin: 32px 0;
+      color: #a8a8b3;
+      display: flex;
+      justify-content: center; }
+      #auth-page .main-content .separator::before {
+        content: "";
+        width: 10px;
+        height: 2px;
+        color: #a8a8b3; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvc3R5bGVzL2F1dGguc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsYUFBYSxFQUFBO0VBSGY7SUFNSSxTQUFPO0lBRVAsV0FBVztJQUNYLHlCQUF5QjtJQUV6QixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLHVCQUF1QjtJQUN2QixtQkFBbUIsRUFBQTtFQWR2QjtJQWtCSSxnQkFBZ0IsRUFBQTtFQWxCcEI7SUFxQkksaUJBQWlCO0lBQ2pCLG9DQUFvQztJQUNwQyxpQkFBaUI7SUFDakIsZ0JBQWdCLEVBQUE7RUF4QnBCO0lBMkJJLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjtJQUNoQixjQUFjLEVBQUE7RUEvQmxCO0lBbUNJLFNBQU87SUFDUCxlQUFlO0lBQ2YsYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixtQkFBbUIsRUFBQTtFQXZDdkI7SUEyQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLG9CQUFvQjtJQUNwQixrQkFBa0IsRUFBQTtJQWhEdEI7TUFtRE0sbUJBQW1CLEVBQUE7SUFuRHpCO01Bd0RRLFlBQVk7TUFDWix5QkFBeUI7TUFDekIsZUFBZTtNQUNmLHlCQUF5QjtNQUN6QixrQkFBa0IsRUFBQTtJQTVEMUI7TUErRFEsZ0JBQWdCLEVBQUE7SUEvRHhCOztNQW1FUSxXQUFXLEVBQUE7SUFuRW5CO01BdUVNLGNBQWM7TUFDZCxjQUFjO01BQ2QsYUFBYTtNQUNiLHVCQUF1QixFQUFBO01BMUU3QjtRQTZFUSxXQUFXO1FBQ1gsV0FBVztRQUNYLFdBQVc7UUFDWCxjQUFjLEVBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIjYXV0aC1wYWdlIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBzdHJldGNoO1xyXG4gIGhlaWdodDogMTAwdmg7XHJcblxyXG4gIGFzaWRlIHtcclxuICAgIGZsZXg6IDc7XHJcblxyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjODM1YWZkO1xyXG5cclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgaW1nIHtcclxuICAgIG1heC13aWR0aDogMzIwcHg7XHJcbiAgfVxyXG4gIHN0cm9uZyB7XHJcbiAgICB0ZXh0LWFsaWduOiBzdGFydDtcclxuICAgIGZvbnQ6IDcwMCAzNnB4IFwiUG9wcGluc1wiLCBzYW5zLXNlcmlmO1xyXG4gICAgbGluZS1oZWlnaHQ6IDMycHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG4gIH1cclxuICBwIHtcclxuICAgIHRleHQtYWxpZ246IHN0YXJ0O1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDMycHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNnB4O1xyXG4gICAgY29sb3I6ICNmOGY4Zjg7XHJcbiAgfVxyXG5cclxuICBtYWluIHtcclxuICAgIGZsZXg6IDg7XHJcbiAgICBwYWRkaW5nOiAwIDMycHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIH1cclxuXHJcbiAgLm1haW4tY29udGVudCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgbWF4LXdpZHRoOiAzMjBweDtcclxuICAgIGFsaWduLWl0ZW1zOiBzdHJldGNoO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG5cclxuICAgID4gaW1nIHtcclxuICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIH1cclxuXHJcbiAgICBmb3JtIHtcclxuICAgICAgaW5wdXQge1xyXG4gICAgICAgIGhlaWdodDogNTBweDtcclxuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjYThhOGIzO1xyXG4gICAgICAgIHBhZGRpbmc6IDAgMTNweDtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICAgICAgfVxyXG4gICAgICBidXR0b24ge1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDE2cHg7XHJcbiAgICAgIH1cclxuICAgICAgYnV0dG9uLFxyXG4gICAgICBpbnB1dCB7XHJcbiAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgIH1cclxuICAgIH1cclxuICAgIC5zZXBhcmF0b3Ige1xyXG4gICAgICBtYXJnaW46IDMycHggMDtcclxuICAgICAgY29sb3I6ICNhOGE4YjM7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG5cclxuICAgICAgJjo6YmVmb3JlIHtcclxuICAgICAgICBjb250ZW50OiBcIlwiO1xyXG4gICAgICAgIHdpZHRoOiAxMHB4O1xyXG4gICAgICAgIGhlaWdodDogMnB4O1xyXG4gICAgICAgIGNvbG9yOiAjYThhOGIzO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><meta id="Reverso_extension___elForCheckedInstallExtension" name="Reverso extension" content="2.2.202"><script charset="utf-8" src="./LetMeAsk_files/main.40b4ff6f9ea24bf27c4a.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.f9885797650d99ccb498.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.991913781c1d8767710e.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.d4abac09ab74f7827e4a.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.c6d532d7b8969cd41765.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.7cafdc47d643d6132573.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.172b60872bf5b6e8e8f2.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.ca62b37e0a3425a23d38.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.df3f02cc1cbefc49ed15.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.1bb79745c588db320633.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.deabf6ccea698c1a5175.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.a963bc7c7cfa27f62364.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.c8ed616a95f57a6f6a99.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.e9ae67d23d50cc2732ba.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.1a66cc16451055e5ace1.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.8ec6879db5e9025e33ee.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.ffca608fe889b9f22d06.hot-update.js.transferir"></script><script charset="utf-8" src="./LetMeAsk_files/main.1c42783ea49841834ef3.hot-update.js.transferir"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div id="auth-page"><aside><img src="./LetMeAsk_files/illustration.701e08a0.svg" alt="Imagem da pagina de login"><strong>Pergunte a seu streamer!</strong><p>Aprenda e compartilhe conhecimento com outras pessoas.</p></aside><main><div class="main-content"><img src="./LetMeAsk_files/Logo.99e1a02b.svg" alt="Logo da página de login"><button><img src="./LetMeAsk_files/google-icon.4fa65408.svg" alt="Logo do Google.">Crie sua sala com o Google</button><div class="separator">ou entre em uma sala</div><form><input type="text" placeholder="Digite o código da sala"><button type="submit">Entrar na sala</button></form></div></main></div></div>
+  <script src="./LetMeAsk_files/bundle.js.transferir"></script><script src="./LetMeAsk_files/vendors_main.chunk.js.transferir"></script><script src="./LetMeAsk_files/main.chunk.js.transferir"></script>
+
+</body></html>
